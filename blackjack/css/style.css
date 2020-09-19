@@ -1,0 +1,156 @@
+body {
+	margin: 10px auto 10px auto; 
+	background-image: url("./../images/game-page/game-page-background.jpg"); 
+	background-size: cover;
+	text-align: center;
+}
+
+main {
+	width: 960px;
+	margin: 20px auto;
+	padding: 20px;
+	background: url("./../images/about-background-mid.jpg"); 
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+header {
+	width: 960px;
+	height: 290px;
+	margin: 10px auto;
+	background-image: url("./../images/felt.jpg"); 
+	background-size: cover;
+	border: solid 10px black;
+	border-radius: 25px;
+}
+
+h1 {
+  font-family: 'Rye', cursive;
+  font-size: 50px;
+	color: red;    
+	text-align: center; 
+	text-shadow: 10px 10px 20px black;
+	padding: 5px;
+	width: 400px;
+	margin: 10px auto;
+}
+
+
+ul {
+	width: 700px;
+	padding: 40px; 
+	margin: 0px auto auto auto; 
+	border-bottom: 1px solid black; 
+	text-align: center; 
+	font-size: 20px;
+	color: #D95336  
+}
+
+li  {
+	display: inline;
+	margin: 0px 5px; 
+	color: #D95336; 
+	font-family:'Merriweather', serif;
+} 
+
+h2 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 40px;
+	color: red;   
+	text-align: center;  
+	border: 5px solid  #C95334;
+	padding: 5px;
+}  
+
+
+p {
+	font-family: 'Josefin Slab', serif;
+	font-size: 24px; 
+	color:  #D95336 ;
+	text-align: center;  
+	padding: 30px;
+}
+
+ol li {
+	display: block;  
+	text-align: center; 
+	padding: 10px; 
+	font-size: 30px;  
+	font-family: 'Merriweather', serif;
+	font-weight: 600;  
+	color: #D95336;
+}
+	
+footer {
+		text-align: center;  
+		padding: 20px;
+		font-weight: 500; 
+		font-size: 15px;  
+		font-family: 'Fredericka the Great', cursive;
+		background-image: url("./../images/felt.jpg"); 
+		padding: 5px;
+		color: #D95336; 
+		width: 960px;
+		margin: 50px auto;
+		border: solid 10px black;
+		border-radius: 25px;
+	}
+	
+section > img {
+	margin-right: auto; 
+	margin-left: auto; 
+	width: 215px;
+	height: 300px;
+	/* padding: 40px; */
+} 
+
+main > section:nth-child(2){
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 25px;
+	background: white;
+	width: 215px;
+	height: 300px;
+	margin: 20px auto;
+}
+
+main > div:first-child img {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+main > div:last-child {
+	width: 100%;
+	position: absolute;
+	bottom: -40px;
+	left: 0px;
+	z-index: 0;
+}
+main > div:last-child img {
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #D95336; 
+} 
+
+a.button{
+	background-color: rgb(226, 43, 43); 
+	border: 1px solid red; 
+	border-radius: 5px; 
+	color: whitesmoke; 
+	padding: 10px 10px 10px 10px;
+} 
+
+a.button:active,a.button:focus,a.button:hover{
+	background-color: yellow; 
+	margin-top: -5px; 
+	color: black;
+} 
+
+a.button:hover {
+	border: 1px solid orange;
+}

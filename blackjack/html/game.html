@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack Table</title>
+  <link rel="stylesheet" href="./../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./../css/game.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ewert&family=Rye&family=Sigmar+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <section>
+      <section class="playarea">
+        <section id="dealerhand">
+          <!-- will append from *.js -->
+        </section>
+        <section id="handtotals">
+          <div>0</div>
+          <div>0</div>
+        </section>
+        <section id="playerhand">
+          <!-- will append from *.js -->
+        </section>
+        <section>
+          <div>
+            <form id="playerbet">
+              <label>
+                <input type="number" id="betinput" name="betamount" placeholder="bet" class="bordereffect" step="5">
+                <span id="border"><i></i></span>
+              </label>
+              <input type="submit" name="submitbutton" value="Deal" id="bet" class="button">
+            </form>
+          </div>
+          <div id="hit" class="button">hit</div>
+          <div id="stay" class="button">stay</div>
+        </section>
+      </section>
+      <section class="infotab">
+        <section>
+          <ul id="playerinfo" class="infobar">
+            <li><h3>Player Name</h3></li>
+            <li><p></p></li>
+            <li><h3>Bank Roll</h3></li>
+            <li><p></p></li>
+            <li><h3>Hands Played</h3></li>
+            <li><p></p></li>
+          </ul>
+          <section class="infobar">
+            <h3>Game History</h3>
+            <ul id="gamehistory">
+              <!-- append <p> from *.js with what just happened -->
+      
+              </ul>
+          </section>
+          <div class="infobar">
+            <a href="./../index.html">
+              <div>MAIN PAGE</div>
+            </a>
+          </div>
+          </section>
+        </section>
+      </section>
+    </section>
+    <div id="toggle-audio">
+      <button id="James-Bond">James Bond</button>
+      <audio id="007" src="./../audio/007-JamesBond.mp3" loop></audio>
+      <button id="Elevator">Elevator Music</button>
+      <audio id="instrumental" src="./../audio/elevator.mp3" loop></audio>
+    </div>>
+  </main>
+  <script src="./../js/app.js"></script>
+  <!-- local javascript to test new functions out in before putting into the main app.js -->
+  <!-- <script src="./../js/testing.js"></script> -->
+</body>
+
+</html>
+
+
+<!--  card containers for animation to be created in js -->
+<!-- <div class="cardContainer">
+  <div class="cardParent">
+    <div class="front">
+    </div>
+    <div class="front back">
+      <img>
+    </div>
+  </div>
+</div> -->
